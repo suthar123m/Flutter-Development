@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "323599180609",
+    "project_id": "digitalsocity-d055f",
+    "storage_bucket": "digitalsocity-d055f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323599180609:android:97baa1d783c51bb2e0f7c0",
+        "android_client_info": {
+          "package_name": "com.example.digital_socity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl3a_8m8m9b8vMiRUG9bfSekQFhesMy9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
