@@ -66,8 +66,11 @@ class _LoginScreenState extends State<LoginScreen> {
                 username: username,
               ),
             ));
-      // ignore: unrelated_type_equality_checks
-      } else if (member == 'Chairman' || member == ' chairman') {
+        // ignore: unrelated_type_equality_checks
+      } else if (Member == 'Chairman' ||
+          Member == ' chairman' ||
+          Member == 'Chairman' ||
+          Member == ' chairman') {
         print('Login Succesfully :)');
         Navigator.push(
             context,
