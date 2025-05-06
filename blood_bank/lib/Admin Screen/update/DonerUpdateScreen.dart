@@ -24,7 +24,7 @@ class _DonerUpdateDetailState extends State<DonerUpdateDetail> {
 
   Future<void> getdata() async {
     DocumentSnapshot documentSnapshot =
-        await _firestore.collection('AddDoner').doc(widget.docId).get();
+        await _firestore.collection('AddDoner').doc(widget.docId).get();  
 
     _donerNameController.text = documentSnapshot['DonerName'];
     _bloodGroupController.text = documentSnapshot['BloodGroup'];
